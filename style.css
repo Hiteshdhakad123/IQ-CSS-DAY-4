@@ -1,0 +1,86 @@
+.img{
+    width: 10%;
+    height: 100px;
+    text-align: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png);
+background-repeat: no-repeat;
+background: cover;
+
+}
+
+
+.display{
+    float: left;
+}
+.right{
+     float: right; 
+     background-color: pink;
+     border: 2px solid black;
+     font-size: 20px;
+     width: 130px;
+     padding: 10px;
+     margin: 10px;
+     text-align: center;
+     border-radius: 30px;
+
+    
+}
+
+.right:hover{
+    background-color: chartreuse;
+}
+.btn1{
+    float: right;
+    margin: 20px;
+    background-color: aqua;
+}
+
+.hitesh{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    color: rgb(196, 13, 22);
+    text-align: center;
+}
+
+#flexContainer1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+width: 50%;
+height: 60px;
+background-color: blue;
+border: 2px solid red;
+border-radius: 10px;
+box-shadow: 2px 2px;
+margin: 20px;
+color: azure;
+}
+@media screen and (min-width:100px ) and (max-width: 400px){
+    .btn{
+background-color: mediumseagreen;
+display: flex;
+width: 50%;
+    }
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    border: 5px solid green;
+    border-radius: 20px;
+    background-color: salmon;
+    line-height: 70px;
+    
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+    
+
+    
